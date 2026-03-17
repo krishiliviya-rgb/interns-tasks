@@ -1,0 +1,17 @@
+# Task 3: Resume Screening System
+
+## Objective
+Build a system to screen and rank resumes based on job description.
+
+## Features
+- Resume parsing
+- Skill extraction
+- Ranking candidates
+
+## Tools Used
+- Python
+- NLP
+- Scikit-learn
+
+## Output
+Ranked resumes with matching score
