@@ -1,35 +1,62 @@
-from flask import Flask, request, render_template
-import pickle
+from model import rank_resumes
+from utils import load_resumes
 
-app = Flask(__name__)
+# -----------------------------------
+# Load Job Description
+# -----------------------------------
 
-# Load trained model and vectorizer
-model = pickle.load(open("models/model.pkl", "rb"))
-vectorizer = pickle.load(open("models/vectorizer.pkl", "rb"))
+with open("job_description.txt", "r", encoding="utf-8") as f:
+    job_description = f.read()
 
-def assign_priority(text):
-    text = text.lower()
-    if "refund" in text or "not working" in text or "error" in text:
-        return "High"
-    elif "how" in text or "change" in text:
-        return "Medium"
-    else:
-        return "Low"
+# -----------------------------------
+# Load All Resumes
+# -----------------------------------
 
-@app.route("/", methods=["GET", "POST"])
-def home():
-    prediction = ""
-    priority = ""
+resumes, filenames = load_resumes("resumes")
 
-    if request.method == "POST":
-        ticket = request.form["ticket"]
-        transformed = vectorizer.transform([ticket])
-        prediction = model.predict(transformed)[0]
-        priority = assign_priority(ticket)
+# -----------------------------------
+# Rank Resumes Using ML Model
+# -----------------------------------
 
-    return render_template("index.html",
-                           prediction=prediction,
-                           priority=priority)
+scores = rank_resumes(job_description, resumes)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+results = list(zip(filenames, scores))
+
+# Sort by highest match score
+results.sort(key=lambda x: x[1], reverse=True)
+
+print("\n🏆 Candidate Ranking:\n")
+
+for name, score in results:
+    print(f"{name} --> Match Score: {round(score * 100, 2)}%")
+
+# -----------------------------------
+# Missing Skills Detection
+# -----------------------------------
+
+print("\n🔎 Missing Skills Analysis:\n")
+
+# Define important skills (based on job role)
+important_skills = [
+    "python",
+    "machine learning",
+    "deep learning",
+    "nlp",
+    "scikit-learn",
+    "tensorflow",
+    "data preprocessing",
+    "feature engineering"
+]
+
+for i, resume in enumerate(resumes):
+
+    resume_lower = resume.lower()
+    missing = []
+
+    for skill in important_skills:
+        if skill not in resume_lower:
+            missing.append(skill)
+
+    print(f"{filenames[i]} missing skills:")
+    print(missing)
+    print()

@@ -1,4 +1,8 @@
+scikit-learn==1.7.2
+numpy==1.26.4
+scipy
+joblib
+threadpoolctl
 pandas
-scikit-learn
-flask
-numpy
+nltk
+streamlit

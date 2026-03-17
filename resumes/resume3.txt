@@ -1,0 +1,13 @@
+Name: Arjun Patel
+
+Skills:
+Java, C++, Web Development,
+HTML, CSS, JavaScript, React
+
+Experience:
+Built responsive websites.
+Worked on frontend UI development.
+Developed e-commerce web applications.
+
+Education:
+B.Tech in Information Technology

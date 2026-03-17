@@ -1,0 +1,13 @@
+Name: Priya Verma
+
+Skills:
+Python, Data Analysis, Pandas, NumPy,
+SQL, Power BI, Statistics
+
+Experience:
+Performed data cleaning and visualization.
+Worked on exploratory data analysis projects.
+Created dashboards using Power BI.
+
+Education:
+B.Tech in Computer Science

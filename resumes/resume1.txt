@@ -1,0 +1,14 @@
+Name: Rahul Sharma
+
+Skills:
+Python, Machine Learning, Deep Learning, NLP,
+scikit-learn, TensorFlow, Pandas, NumPy,
+Data Preprocessing, Feature Engineering
+
+Experience:
+Worked on a sentiment analysis project using NLP.
+Built a machine learning model for sales prediction.
+Developed a resume screening system using TF-IDF and cosine similarity.
+
+Education:
+B.Tech in Artificial Intelligence and Machine Learning
