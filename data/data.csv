@@ -1,0 +1,124 @@
+ticket,category,priority
+Internet is not working,Technical,High
+My internet connection is very slow,Technical,Medium
+App crashes frequently,Technical,High
+Application not loading properly,Technical,High
+Server connection timeout error,Technical,High
+Unable to upload files,Technical,Medium
+System showing unknown error,Technical,High
+Facing login issue on app,Technical,Medium
+Website page not opening,Technical,High
+App freezes during payment,Technical,High
+Error 404 page not found,Technical,Medium
+Network issue while browsing,Technical,Medium
+Technical glitch in dashboard,Technical,Low
+Unable to install the app,Technical,Medium
+Software update failed,Technical,Medium
+App not responding,Technical,High
+Website is down,Technical,High
+Database connection failed,Technical,High
+System performance is slow,Technical,Low
+Bug found in application,Technical,Medium
+Audio not working in app,Technical,Medium
+Video not loading properly,Technical,Medium
+Issue with server configuration,Technical,High
+Crash when submitting form,Technical,High
+Login page error message,Technical,Medium
+API integration issue,Technical,High
+Payment gateway not working,Technical,High
+Application showing blank screen,Technical,High
+Unable to access account dashboard,Technical,Medium
+Security error warning displayed,Technical,High
+
+Refund not received, Billing, High
+Charged twice for my order, Billing, High
+Payment deducted but order failed, Billing, High
+Need invoice copy, Billing, Low
+Subscription cancelled automatically, Billing, Medium
+Payment confirmation not received, Billing, Medium
+Late refund process, Billing, High
+Incorrect billing amount charged, Billing, High
+Discount not applied, Billing, Medium
+Need refund for cancelled order, Billing, High
+Duplicate transaction issue, Billing, High
+Overcharged for product, Billing, High
+Requesting refund status, Billing, Medium
+Billing statement incorrect, Billing, Medium
+Need GST invoice, Billing, Low
+Auto debit without permission, Billing, High
+Refund taking too long, Billing, High
+Transaction failed but money deducted, Billing, High
+Incorrect subscription fee, Billing, Medium
+Billing query regarding last payment, Billing, Low
+Payment receipt missing, Billing, Low
+Unable to process refund, Billing, High
+Coupon not working during checkout, Billing, Medium
+Extra charges applied, Billing, High
+Refund for damaged product, Billing, High
+Need payment clarification, Billing, Low
+Subscription renewal issue, Billing, Medium
+Billing support required, Billing, Low
+EMI payment not processed, Billing, Medium
+Refund approved but not credited, Billing, High
+
+Unable to login to my account,Account,High
+Forgot my password,Account,Medium
+How to change my email address,Account,Low
+Need to reset my password,Account,Medium
+Change mobile number in account,Account,Low
+Account locked due to multiple attempts,Account,High
+Unable to update profile details,Account,Medium
+Delete my account permanently,Account,Low
+Account verification pending,Account,Medium
+Username not recognized,Account,Medium
+Password reset link not working,Account,High
+Profile update error,Account,Medium
+Need to change username,Account,Low
+Account suspended without reason,Account,High
+Unable to verify email,Account,Medium
+Account login OTP not received,Account,High
+Reset security questions,Account,Low
+How to update address in account,Account,Low
+Account settings not saving,Account,Medium
+Trouble accessing account settings,Account,Medium
+Forgot registered email id,Account,High
+Account recovery process help,Account,Medium
+Deactivate account request,Account,Low
+Account showing incorrect details,Account,Medium
+Unable to link phone number,Account,Medium
+Security alert in account,Account,High
+Two factor authentication issue,Account,High
+Need help with account preferences,Account,Low
+Profile picture not updating,Account,Low
+Account dashboard not accessible,Account,Medium
+
+Delivery is delayed,Delivery,Medium
+Order not delivered yet,Delivery,High
+Wrong item delivered,Delivery,High
+How to track my order,Delivery,Low
+Package arrived damaged,Delivery,High
+Late delivery of product,Delivery,Medium
+Where is my shipment,Delivery,Medium
+Tracking link not working,Delivery,Medium
+Item missing from package,Delivery,High
+Delivery agent did not arrive,Delivery,High
+Order status not updated,Delivery,Medium
+Delivery address change request,Delivery,Low
+Package stuck in transit,Delivery,Medium
+Expected delivery date crossed,Delivery,High
+Received incomplete order,Delivery,High
+Shipment delayed due to weather,Delivery,Medium
+Order returned without reason,Delivery,High
+Need delivery confirmation,Delivery,Low
+Product delivered to wrong address,Delivery,High
+Tracking number invalid,Delivery,Medium
+Courier not responding,Delivery,Medium
+Delivery attempt failed,Delivery,High
+Shipping charges query,Delivery,Low
+Delivery reschedule request,Delivery,Low
+Order dispatched but not received,Delivery,High
+Package lost in transit,Delivery,High
+Delay in shipment processing,Delivery,Medium
+Delivery instructions ignored,Delivery,Medium
+Order stuck at warehouse,Delivery,Medium
+Received wrong quantity,Delivery,High

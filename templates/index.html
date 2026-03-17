@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Support Ticket Classifier</title>
+</head>
+<body>
+    <h2>Support Ticket Classification</h2>
+
+    <form method="POST">
+        <textarea name="ticket" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Classify">
+    </form>
+
+    {% if prediction %}
+        <h3>Category: {{ prediction }}</h3>
+        <h3>Priority: {{ priority }}</h3>
+    {% endif %}
+</body>
+</html>

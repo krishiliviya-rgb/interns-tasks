@@ -1,32 +1,25 @@
-# 📊 Sales Demand Forecasting Web Application
+# Support Ticket Classification System
 
-## 📌 Domain
-Machine Learning + Web Application
+## 📌 Project Overview
+This project is a Machine Learning based Support Ticket Classification System.
+It automatically classifies customer support tickets into categories and assigns priority levels.
 
-## 📖 Project Description
-This project is an end-to-end Machine Learning based Sales Demand Forecasting system.  
-It predicts future sales based on historical date information using Linear Regression.
-
-The model is deployed using Streamlit as a web application.
-
----
+## 🎯 Domain
+Machine Learning (Natural Language Processing - NLP)
 
 ## 🚀 Features
-- Sales trend visualization
-- Date-based sales prediction
-- Trained ML model saved using Joblib
-- Interactive web interface using Streamlit
-
----
+- Text preprocessing using TF-IDF
+- Ticket category classification
+- Priority tagging (High / Medium / Low)
+- Web interface using Flask
+- Model evaluation using classification report
 
 ## 🛠 Technologies Used
 - Python
-- Pandas
 - Scikit-learn
-- NumPy
-- Joblib
-- Streamlit
-
----
+- Pandas
+- Flask
+- TF-IDF Vectorizer
+- Random Forest Classifier
 
 ## 📂 Project Structure
